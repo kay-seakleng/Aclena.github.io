@@ -1,0 +1,25 @@
+.container > footer > .top-foot{
+    width: 100%;
+    display: flex;
+    
+
+}
+.container > footer > .top-foot > .brach {
+    width: 25%;
+    /* height: 100%; */
+    border: 1px solid gray;
+    background-color: rgba(242, 245, 244, 0.926);
+    text-align: center;
+    padding: 30px 20px;
+    line-height: 25px;
+    
+}
+.container > footer > .top-foot > .brach > span > a {
+    text-decoration: none ;
+    color: black;
+    font-weight: 800;
+}
+.container > footer > .top-foot > .brach > span > a:hover{
+    text-decoration: underline;
+}
+

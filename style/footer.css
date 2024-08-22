@@ -1,0 +1,5 @@
+.container > footer{
+    width: 100%;
+    /* height: 105vh; */
+    background-color: var(--nav-footer-color);
+}

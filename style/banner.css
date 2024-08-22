@@ -1,0 +1,69 @@
+.container > main > .banner-image{
+    width: 100%;
+    padding: var(--padd);
+    background-color: var(--banner-color);
+    height: 410px;
+    box-shadow: 0 2px 10px black;
+    /* position: relative; */
+    
+
+}
+.container > main > .banner-image > .image{
+    width: 100%;
+    height: 100%;
+    animation: imageRender 10s linear infinite;
+    z-index: 1;
+    
+}
+@keyframes imageRender{
+    0%{
+        background: url(/assets/image/banner-acleda-mobile-1.jpeg);
+        background-size: cover;
+    }
+    40%{
+        background: url(/assets/image/banner-2.jpeg);
+        background-size: cover;
+    }
+    70%{
+        background: url(/assets/image/banner-3.jpeg);
+        background-size: cover;
+    }
+    100%{
+        background: url(/assets/image/banner-acleda-mobile-1.jpeg);
+        background-size: cover;
+    }
+}
+
+.container > main > .icon-image{
+    width: 100%;
+    background-color: var(--nav-footer-color);
+    
+}
+.container > main > .icon-image > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 80px 0;
+}
+.container > main > .icon-image > ul > li{
+    text-align: center;
+    margin: 0 30px;
+}
+
+.container > main > .icon-image > ul > li > a > img{
+    padding-bottom: 18px;
+    width: 45px;
+    height: 65;
+}
+.container > main > .icon-image > ul > li > a {
+    font-weight: 400;
+    font-size: 12px;
+    font-family: var(--font-montserrat);
+    color: white;
+    text-decoration: none;
+}
+.container > main > .icon-image > ul > li:hover > a {
+    text-decoration: underline;
+
+}

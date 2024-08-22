@@ -1,0 +1,88 @@
+.container > footer > .bot-footer{
+    width: 100%;
+    /* height: 60%; */
+    padding: 0 390px;
+    font-family: var(--font-montserrat);
+    
+
+}
+
+.container > footer > .bot-footer > .ul1 > ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.container > footer > .bot-footer > .ul1 > ul > li{
+    list-style: none;
+}
+.container > footer > .bot-footer > .ul1 > ul > li > a{
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.container > footer > .bot-footer > .ul1 > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+
+.container > footer > .bot-footer > .ul2 > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > footer > .bot-footer > .ul2 > ul > li{
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    list-style: none;
+    padding: 0 20px;
+}
+
+
+.container > footer > .bot-footer > .ul3 > ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+    font-size: 12px;
+    color: white;
+    
+}
+
+.container > footer > .bot-footer > .ul4 > ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+}
+.container > footer > .bot-footer > .ul4 > ul > li > img{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.container > footer > .bot-footer > .ul5 > ul{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 35px;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+.container > footer > .bot-footer > .ul6 > ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.container > footer > .bot-footer > .ul6 > ul > li{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.container > footer > .bot-footer > .ul6 > ul > li > img{
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
+

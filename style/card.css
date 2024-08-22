@@ -1,0 +1,40 @@
+.container > main > .row-card{
+    width: 100%;
+    padding: 30px 140px;
+    /* background-color: var(--body-color); */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container > main > .row-card > .card {
+    width: 530px;
+    /* height: 400px; */
+    /* background-color: cadetblue; */
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+/* .container > main > .row-card > .card:nth-child(5), .card:nth-child(6){
+    margin-bottom: 0px;
+} */
+
+.container > main > .row-card > .card > img{
+    border-radius: 10px;
+    
+}
+
+.container > main > .row-card > .card > a{
+    text-decoration: none;
+    font-weight: 400;
+    color: steelblue;
+}
+.container > main > .row-card > .card > a:hover{
+    text-decoration: underline;
+}
+
+.container > main > .row-card > .card > img{
+    width: 100%;
+    object-fit: cover;
+}
